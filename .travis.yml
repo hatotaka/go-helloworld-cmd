@@ -7,8 +7,9 @@ services:
 
 before_install:
   - docker pull golang
-  - docker run -d golang /bin/sh 
-  - docker ps -a
+  - docker run -it golang /bin/bashs
+    #  - docker ps -a
 
 script:
+  - hostname
   - make
