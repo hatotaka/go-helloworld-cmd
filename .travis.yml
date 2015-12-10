@@ -12,5 +12,9 @@ before_install:
 
 script:
   - docker run -v $(pwd):/go golang make
-  - ls
+  - docker run -v $(pwd):/go golang id
+  - docker run -v $(pwd):/go golang env
+  - ls -la
   - hostname
+  - env
+  - id
