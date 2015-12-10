@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var version string = "1.0.1"
+var version string = "1.0.2"
 
 func main() {
 	fmt.Println("hellworld "+version)
