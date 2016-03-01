@@ -7,4 +7,4 @@ clean:
 	rm -f "$(OUTPUT)"
 
 test:
-	go test
+	make
